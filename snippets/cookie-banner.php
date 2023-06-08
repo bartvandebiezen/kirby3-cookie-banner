@@ -5,7 +5,10 @@
 	$features = array_merge(option('michnhokn.cookie-banner.features'), $features);
 ?>
 <?php if ($assets): ?>
-	<?= css($kirby->url('media') . '/plugins/michnhokn/cookie-banner/cookie-banner.css') ?>
+	<link
+		href="<?= $kirby->url('media') . '/plugins/michnhokn/cookie-banner/cookie-banner.css' ?>"
+		rel="stylesheet"
+	>
 <?php endif; ?>
 <section class="cookie-banner is-hidden"
 	id="cookie-banner"
