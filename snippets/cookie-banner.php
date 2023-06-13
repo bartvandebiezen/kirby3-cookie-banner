@@ -16,11 +16,11 @@
 	aria-labelledby="cookie-banner-title"
 >
 	<div class="cookie-banner__content">
-		<p class="cookie-banner__title"
+		<h2 class="cookie-banner__title"
 			id="cookie-banner-title"
 		>
 			<?= getCookieBannerTranslation('title') ?>
-		</p>
+		</h2>
 		<p class="cookie-banner__text">
 			<?= kti(getCookieBannerTranslation('text')) ?>
 		</p>
